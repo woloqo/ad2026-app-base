@@ -38,5 +38,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/<username_lowecase>/<reponame_lowercase>:latest
-            ghcr.io/<username_lowecase>/<reponame_lowercase>:${{ env.SHORT_SHA }}
+            ghcr.io/woloqo/ad2026-app-base:latest
+            ghcr.io/woloqo/ad2026-app-base:${{ env.SHORT_SHA }}
